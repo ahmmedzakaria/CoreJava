@@ -1,0 +1,36 @@
+##-----Question-----##
+public class ListTest
+{
+    public static void main(String[] ar)
+    {
+        List<String> li=new ArrayList<String>();
+        String s="JayHo";
+        li.add(s);
+        li.add(s+s);
+        li.add("String");
+        System.out.println(li.size());
+        System.out.println(li.contains(8));
+        System.out.println(li.contains("JayHOJayHo"));
+    }
+} 
+What will be the output while compiling and running the above code?
+
+##ans1##
+2 true false
+
+##ans2##
+2 false true
+
+##ans3##
+3 true false
+
+##ans4##
+3 false true
+
+##ans5##
+2 false false
+
+##correct##
+4 
+
+##-----Question-----##
